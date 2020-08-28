@@ -1,15 +1,21 @@
 {
-  "name": "hs-web",
+  "name": "@hypersigil/site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "import-editor": "ncp ../editor/build ./public/editor",
+    "import-game": "ncp ../game/public ./public/game",
+    "import": "npm run import-editor && npm run import-game",
   },
   "dependencies": {
     "next": "9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0"
   }
 }

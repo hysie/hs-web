@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to HyperSigil!
+          Welcome to HyperSigil
         </h1>
 
         <p className={styles.description}>
@@ -28,7 +28,7 @@ export default function Home() {
           </a>
 
           <a href='/editor' className={styles.card}>
-            <h3>Learn &rarr;</h3>
+            <h3>Try it! &rarr;</h3>
             <p>Learn about HyperSigil with a <i>demo</i> online editor.</p>
           </a>
         </div>
